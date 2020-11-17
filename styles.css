@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    font-family: "Arial";
+}
+body {
+    background-image: linear-gradient(to right, yellow, black);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    text-align: center;
+    margin-top: -100px;
+}
+h1{
+    letter-spacing: 8px;
+    margin: 10px;
+}
+
+h3{
+    margin: 10px;
+}
+
+p{
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+button {
+    background: rgba(255, 255, 0, 0.685);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
